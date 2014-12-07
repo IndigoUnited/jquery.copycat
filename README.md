@@ -12,7 +12,7 @@ Makes an element looks like `target`.
 
 Available `options`:
 
-- `scroll`: custom scroll element to listen for scroll events (defaults to `window`)
+- `scroll`: scroll element to listen for scroll events (defaults to `window`)
 - `handleResize`: true to handle resize, false otherwise (defaults to `true`)
 - `subtractScroll`: true to subtract scroll offsets, false otherwise (defaults to `null` which means automatic)
 - `update`: true to automatically call `.copycat('update')` right away, false otherwise (defaults to `true`)
