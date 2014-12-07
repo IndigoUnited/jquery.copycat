@@ -1,0 +1,27 @@
+{
+  "name": "jquery.copycat",
+  "version": "0.1.0",
+  "main": "lib/jquery-copycat.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1.9||^2.0"
+  },
+  "homepage": "https://github.com/IndigoUnited/jquery.copycat",
+  "authors": [
+    "IndigoUnited"
+  ],
+  "description": "A jQuery plugin that copies position and size of an element to another.",
+  "keywords": [
+    "copycat",
+    "position",
+    "size",
+    "imitate",
+    "css3"
+  ]
+}
