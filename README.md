@@ -36,6 +36,8 @@ If you wish to keep the position set by copycat, pass `keepPosition` as true.
 Simply include the `jquery.copycat.js` file after jQuery is loaded.   
 This plugin also integrates with `AMD` (no shim required) and `CommonJS`.
 
+This plugin only works in modern browsers, that is `IE >= 9`.
+
 
 ## Tests
 
