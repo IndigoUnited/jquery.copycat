@@ -1,7 +1,7 @@
 # jquery.copycat
 
 A jQuery plugin that copies position and size of an element to another.   
-Respondes to size and scroll events in order to keep it updated.
+Respondes to resize and scroll events in order to keep it updated.
 
 
 ## API
@@ -20,15 +20,28 @@ Available `options`:
 Note that if you call this function with different `target`s, the previous instances will be destroyed.
 
 
+```js
+$('.some-el').copycat('.target-el');
+```
+
 ### .copycat('update')
 
 Manually updates element.
+
+
+```js
+$('.some-el').copycat('update');
+```
 
 
 ### .copycat('destroy', [keepPosition])
 
 Destroy copycat instance, releasing all events and clearing element position.   
 If you wish to keep the position set by copycat, pass `keepPosition` as true.
+
+```js
+$('.some-el').copycat('destroy');
+```
 
 
 ## How to use
