@@ -17,7 +17,8 @@ Available `options`:
 - `subtractScroll`: true to subtract scroll offsets, false otherwise (defaults to `null` which means automatic)
 - `update`: true to automatically call `.copycat('update')` right away, false otherwise (defaults to `true`)
 
-Note that if you call this function with different `target`s, the previous instances will be destroyed.
+Note that if you call this function with different `target`s, the previous instances will be destroyed.   
+Once initialized, you can't change the options.
 
 
 ```js
